@@ -1,0 +1,11 @@
+{
+    "relative_boolean": {
+        "$ref": "https://raw.githubusercontent.com/bjne/libucl/master/tests/schema/references.json.testdata#/relative_boolean_lasthop"
+    },
+    "relative_boolean_nexthop": {
+        "$ref": "references.json.testdata#/relative_boolean_lasthop"
+    },
+    "relative_boolean_lasthop": {
+        "type": "boolean"
+    }
+}

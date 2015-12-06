@@ -49,6 +49,70 @@
             }
         ]
     },
+    {
+        "description": "relative file reference",
+        "schema": {
+            "$ref": "references.json.testdata#/relative_boolean_lasthop"
+        },
+        "tests": [
+            {
+                "data":true,
+                "valid":true
+            },
+            {
+                "data":"string",
+                "valid":false
+            }
+        ]
+    },
+    {
+        "description": "relative file reference to relative file reference",
+        "schema": {
+            "$ref": "references.json.testdata#/relative_boolean_nexthop"
+        },
+        "tests": [
+            {
+                "data":true,
+                "valid":true
+            },
+            {
+                "data":"string",
+                "valid":false
+            }
+        ]
+    },
+    {
+        "description": "relative file reference to relative file reference",
+        "schema": {
+            "$ref": "references.json.testdata#/relative_boolean_nexthop"
+        },
+        "tests": [
+            {
+                "data":true,
+                "valid":true
+            },
+            {
+                "data":"string",
+                "valid":false
+            }
+        ]
+    },
+    {
+        "description": "relative file reference => url ref => rel url reference",
+        "schema": {
+            "$ref": "references.json.testdata#/relative_boolean"
+        },
+        "tests": [
+            {
+                "data":true,
+                "valid":true
+            },
+            {
+                "data":"string",
+                "valid":false
+            }
+        ]
+    }
 /*
     {
         "description": "change resolution scope",
