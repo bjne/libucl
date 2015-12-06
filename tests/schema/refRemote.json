@@ -84,7 +84,7 @@
     {
         "description": "relative file reference to relative file reference",
         "schema": {
-            "$ref": "references.json.testdata#/relative_boolean_nexthop"
+            "$ref": "references.json.testdata#/relative_boolean"
         },
         "tests": [
             {
